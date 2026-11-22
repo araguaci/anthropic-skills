@@ -41,5 +41,33 @@
         "./skills/webapp-testing"
       ]
     }
+    ,
+    {
+      "name": "claude-api",
+      "description": "Claude API and SDK documentation skill for building LLM-powered applications",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/claude-api"
+      ]
+    },
+    {
+      "name": "academy-guide",
+      "description": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/academy-guide"
+      ]
+    },
+    {
+      "name": "discernment-nudge",
+      "description": "Appends two or three short follow-up questions after a substantive answer to help users check key facts, probe the reasoning, and notice missing context",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/discernment-nudge"
+      ]
+    }
   ]
 }
